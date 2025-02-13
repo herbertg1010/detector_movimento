@@ -22,8 +22,8 @@ void display_init(){
   ssd1306_init();
   sleep_ms(100);
 
-  display_message("Sistema ligado");
-  sleep_ms(4000);
+  display_message("Iniciando...");
+  sleep_ms(3000);
 
   display_message("Fale algo!!");
 }

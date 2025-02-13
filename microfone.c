@@ -24,7 +24,7 @@ float mic_read() {
     return ADC_ADJUST(adc_read());
 }
 
-bool detect_clap() {
+bool detect_sound() {
     int peak_count = 0;
     float last_value = mic_read();
     

@@ -5,6 +5,6 @@
 
 void mic_init();
 float mic_read();
-bool detect_clap();
+bool detect_sound();
 
 #endif

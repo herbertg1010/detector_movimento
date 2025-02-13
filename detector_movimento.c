@@ -12,7 +12,7 @@ int main()
     display_init();
     bool som_detectado = false; 
     while (true) {
-        if (detect_clap()) {
+        if (detect_sound()) {
             buzzer_beep();
             display_message("Som Detectado!!"); 
             som_detectado = true;
